@@ -1,64 +1,107 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# WEB GALLERY
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Tentang Website
 
-## About Laravel
+Simpelnya ini hanyalah Web yang saya buat dengan mengikuti style instagram, facebook dan twitter namun versi low budget yang sangat minim. meskipun tidak terlalu mirip, tapi fungsi yang ditonjolkan dari web ini adalah mampu memuat gallery dan user lain bisa melihat gambar apa yang kita posting.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Fitur
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Untuk Fitur masih minim:
+- sign up
+- log in
+- log out
+- multiuser
+- add poto
+- add album
+- edit profile
+- add comment
+- edit comment
+- delete comment
+- like
+- dll
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Tampilan Website
 
-## Learning Laravel
+![Screenshot (309)](https://github.com/GaneshaKusmaraPutra/Ujikom-ganesha/assets/105642339/98199efd-e9f7-44b4-bb0b-73e0ed147f74)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+![Screenshot (310)](https://github.com/GaneshaKusmaraPutra/Ujikom-ganesha/assets/105642339/5acee0b6-ed6d-46bc-8102-1cd6c80c6f98)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![Screenshot (311)](https://github.com/GaneshaKusmaraPutra/Ujikom-ganesha/assets/105642339/fd9d62ad-c02c-47ba-8a4c-60165edd4a8b)
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## ERD, Relasi dan UML Use Case
 
-### Premium Partners
+- ERD
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+![ERD](https://github.com/GaneshaKusmaraPutra/Ujikom-ganesha/assets/105642339/ee228617-af0e-4626-a3ef-90c7cc2d7b9b)
 
-## Contributing
+- Relasi
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![RELASI](https://github.com/GaneshaKusmaraPutra/Ujikom-ganesha/assets/105642339/3a81fab5-e51d-4b23-aa3b-1a5b1ebc45cd)
 
-## Code of Conduct
+- UML
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![UML](https://github.com/GaneshaKusmaraPutra/Ujikom-ganesha/assets/105642339/5942ae32-dc44-4d81-8f20-be848aa313ba)
 
-## Security Vulnerabilities
+## Prasyaratan
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- PHP 8.2.8 & Web Server (Apache, Lighttpd, atau Nginx)
+- Database (MariaDB dengan v11.0.3 atau PostgreSQL)
+- Web Browser (Firefox, Safari, Opera, Microsoft Edge dll)
 
-## License
+## Instalasi
+1. Clone Repository
+```
+https://github.com/GaneshaKusmaraPutra/Ujikom-ganesha
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+2. Install Composer
+```
+composer install
+```
+atau
+```
+composer update
+```
+
+3. Copy .Env
+```
+copy .env.example .env
+```
+
+4. Setting database di .env
+```
+DB_PORT=3306
+DB_DATABASE=laravel_gallery
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+5. Generate key
+```
+php artisan key:generate
+```
+
+6. Jalankan migrate dan seeder
+```
+php artisan migrate --seed
+```
+
+7. Buat Storage Link
+```
+php artisan storage:link
+```
+
+8. jangan lupa menginstall NPM
+```
+npm install
+```
+lalu jalankan
+```
+npm run dev
+```
+
+8. Jalankan Serve
+```
+php artisan serve
+```
